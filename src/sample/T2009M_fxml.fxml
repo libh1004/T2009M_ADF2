@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="sample.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="922.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextFlow layoutX="14.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextField fx:id="txtName" layoutX="126.0" layoutY="69.0" promptText="Ho va ten" />
+      <TextField fx:id="txtEmail" layoutX="126.0" layoutY="137.0" prefHeight="39.0" prefWidth="224.0" promptText="Email" />
+      <TextArea fx:id="txtAge" layoutX="126.0" layoutY="209.0" prefHeight="128.0" prefWidth="224.0" promptText="Tuoi" />
+      <TextArea fx:id="ketqua" layoutX="424.0" layoutY="69.0" prefHeight="283.0" prefWidth="376.0" />
+      <Button onAction="#submit" layoutX="127.0" layoutY="384.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="99.0" text="Submit">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

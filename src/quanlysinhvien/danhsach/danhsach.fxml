@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="quanlysinhvien.danhsach.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tbView" layoutX="35.0" layoutY="106.0" prefHeight="402.0" prefWidth="689.0">
+        <columns>
+          <TableColumn fx:id="txtId" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="txtName" prefWidth="358.0" text="Name" />
+            <TableColumn fx:id="txtAge" prefWidth="144.0" text="Age" />
+            <TableColumn fx:id="txtMark" minWidth="0.0" prefWidth="111.0" text="Mark" />
+        </columns>
+      </TableView>
+      <Button onAction="#back" layoutX="35.0" layoutY="30.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="144.0" text="&lt;&lt; Back" />
+   </children>
+</Pane>
