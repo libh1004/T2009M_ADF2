@@ -1,27 +1,27 @@
 package testadf2;
 
 public class Passenger {
-    public Integer id;
+    public int id;
     public String passengerName;
     public String address;
     public String phone;
     public String dateOfDeparture;
     public String dateOfReturn;
 
-//    public Passenger(Integer id, String passengerName, String address, String phone, String dateOfDeparture, String dateOfReturn) {
-//        this.id = id;
-//        this.passengerName = passengerName;
-//        this.address = address;
-//        this.phone = phone;
-//        this.dateOfDeparture = dateOfDeparture;
-//        this.dateOfReturn = dateOfReturn;
-//    }
+    public Passenger(int id, String passengerName, String address, String phone, String dateOfDeparture, String dateOfReturn) {
+        this.id = id;
+        this.passengerName = passengerName;
+        this.address = address;
+        this.phone = phone;
+        this.dateOfDeparture = dateOfDeparture;
+        this.dateOfReturn = dateOfReturn;
+    }
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
